@@ -26,10 +26,10 @@ const Searchlist = (props) => {
 
         <div className="listBox">
 
-            {imageList.map((item) => {
+            {imageList.map((item, index) => {
             return(
 
-              <div className="imgBox"> 
+              <div className="imgBox" key={index}> 
                 <img src={item.url}/>
               </div>
 

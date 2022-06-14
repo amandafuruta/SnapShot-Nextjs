@@ -37,8 +37,7 @@ export default function Home() {
     let value = e.target.value
     setSearchValue(value)
 
-    if (value != ""){
-      console.log("Vazio")
+    if (value !== ""){
       setSearchField(true)
     } else {
       console.log("náo")

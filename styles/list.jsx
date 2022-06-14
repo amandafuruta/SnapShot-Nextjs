@@ -32,15 +32,6 @@ export const List = styled.section`
                     transition: transform 1.25s;
                 }
             }
-
-
-
-        }
-
-        
+        }        
     }
-    
-
-
-
 `
